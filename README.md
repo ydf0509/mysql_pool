@@ -1,7 +1,8 @@
-# mysql_pool 是 使用python通用对象池 universal_object_pool 实现的mysql连接池
+# 1.mysql_pool 介绍
 
+mysql_pool是使用python通用对象池 universal_object_pool 实现的mysql连接池
 
-mysql_pool 不依赖美国大神写得Dbutils库来封装连接池，而是使用 python万能对象池 universal_object_pool 来驱动。
+mysql_pool不依赖美国大神写得Dbutils库来封装连接池，而是使用 python万能对象池 universal_object_pool 来驱动。
 
 ```
 在多线程环境下操作mysql，不能多线程操作同一个connection，否则会造成事务混乱疯狂报错
@@ -12,11 +13,11 @@ mysql_pool 不依赖美国大神写得Dbutils库来封装连接池，而是使�
 mysql_pool是使用万能通用对象池实现的mysql连接池，完全不依赖Dbutils库来实现连接池。
 ```
 
-## 0. 安装 
+## 2. 安装 
 
 pip install mysql_pool
 
-## 1 使用例子和测试代码
+## 3 使用例子和测试代码
 
 ```python
 import typing
