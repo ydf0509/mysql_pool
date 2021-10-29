@@ -13,11 +13,11 @@ mysql_pool不依赖美国大神写得Dbutils库来封装连接池，而是使用
 mysql_pool是使用万能通用对象池实现的mysql连接池，完全不依赖Dbutils库来实现连接池。
 ```
 
-## 2. 安装 
+# 2. 安装 
 
 pip install mysql_pool
 
-## 3 使用例子和测试代码
+# 3 使用例子和测试代码
 
 ```python
 import typing
